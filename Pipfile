@@ -10,6 +10,8 @@ pandas = "*"
 sqlalchemy = "*"
 flask = "*"
 flask-sqlalchemy = "*"
+gunicorn = "*"
+pymysql = "*"
 
 [requires]
 python_version = "3.7"
