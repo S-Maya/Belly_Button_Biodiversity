@@ -12,6 +12,7 @@ flask = "*"
 flask-sqlalchemy = "*"
 gunicorn = "*"
 pymysql = "*"
+papertrail = "*"
 
 [requires]
 python_version = "3.7"
