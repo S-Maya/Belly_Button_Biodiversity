@@ -4,15 +4,21 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+black = "*"
 
 [packages]
-pandas = "*"
 sqlalchemy = "*"
-flask = "*"
-flask-sqlalchemy = "*"
-gunicorn = "*"
 pymysql = "*"
-papertrail = "*"
+flask = "*"
+matplotlib = "*"
+numpy = "*"
+plotly = "*"
+pandas = "*"
+gunicorn = "*"
+flask-sqlalchemy = "*"
 
 [requires]
 python_version = "3.7"
+
+[pipenv]
+allow_prereleases = true
